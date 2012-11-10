@@ -39,9 +39,10 @@ gem 'jquery-rails'
 gem "thin", ">= 1.5.0"
 gem "pg", ">= 0.14.1"
 gem "slim", ">= 1.3.3"
-gem "haml2slim", ">= 0.4.6", :group => :development
-gem "haml", ">= 3.1.6", :group => :development
-gem "haml-rails", ">= 0.3.5", :group => :development
+#gem "haml2slim", ">= 0.4.6", :group => :development
+#gem "haml", ">= 3.1.6", :group => :development
+#gem "haml-rails", ">= 0.3.5", :group => :development
+gem "slim-rails"
 gem "hpricot", ">= 0.8.6", :group => :development
 gem "ruby_parser", ">= 3.0.1", :group => :development
 gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
@@ -58,3 +59,4 @@ gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.4"
 gem "quiet_assets", ">= 1.0.1", :group => :development
 gem "therubyracer", ">= 0.10.2", :group => :assets, :platform => :ruby
+gem "pry", :group => [ :development, :test ]
