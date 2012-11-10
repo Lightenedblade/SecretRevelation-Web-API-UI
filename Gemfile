@@ -5,7 +5,6 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -48,7 +47,8 @@ gem "ruby_parser", ">= 3.0.1", :group => :development
 gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
 gem "database_cleaner", ">= 0.9.1", :group => :test
 gem "email_spec", ">= 1.4.0", :group => :test
-gem "turnip", ">= 1.0.0", :group => :test
+gem "capybara"
+gem "turnip", git: 'git://github.com/jnicklas/turnip.git'
 gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
 gem "bootstrap-sass", ">= 2.1.1.0"
 gem "devise", ">= 2.1.2"
@@ -56,3 +56,5 @@ gem "devise_invitable", ">= 1.1.1"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.4"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "therubyracer", ">= 0.10.2", :group => :assets, :platform => :ruby
