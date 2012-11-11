@@ -1,1 +1,1 @@
-rvm use 1.9.3@secretrev
+rvm use 1.9.3-p286@secretrev --create
