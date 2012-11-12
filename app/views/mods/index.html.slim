@@ -1,14 +1,14 @@
 h1 Mods#index
 p Find me in app/views/mods/index.html.slim
-div.most_popular
-  - @mods.each do |mod|
-    div
+div.five_most_popular
+  - @five_most_popular.each do |mod|
+    p
       a href="#{url_for mod}"= mod.name
   end
 
-div.highest_rated
-  - @mods.each do |mod|
-    div
+div.five_highest_rated
+  - @five_highest_rated.each do |mod|
+    p
       a href="#{url_for mod}"= mod.name
   end
 

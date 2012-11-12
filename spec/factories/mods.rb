@@ -5,5 +5,7 @@ FactoryGirl.define do
     name "MyString"
     description "MyText"
     forge_compatible false
+    sequence(:downloads) { |i| i }
+    rating 0
   end
 end
